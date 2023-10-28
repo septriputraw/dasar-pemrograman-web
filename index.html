@@ -1,0 +1,136 @@
+<DOCTYPE! html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="septri putra wiarka">
+
+        <title>Selamat Datang</title>
+        <link rel="stylesheet" href="assets/style/styles.css">
+        <link rel="stylesheet" href="assets/style/responsive.css">
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <div class="jumbotron">
+                <h1><span>SEP</span>T<span>RI</span>  <span>PUT</span>R<span>A</span> <span>WIARK</span>A</h1>
+                <em>welcome to my resume</em>
+            </div>
+            
+            <nav>
+                <ul class="topnav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a  href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">More Info</a></li>
+                    <li class="mode">
+                        <a id="tema" href="javascript:void(0);" onclick="theme()">&#9789;</a>
+                        <!--<a href="javascript:void(0);" onclick="lightheme()">&#9788;</a>-->
+                    </li>
+                    <li class="menu">
+                        <a href="javascript:void(0);" onclick="myMenu()">&#9776;
+                            <!--<span class="fa fa-bars menu-icon"></span>-->
+                        </a>
+                    </li>
+                </ul>
+                
+            </nav>
+            
+            
+        </header>
+
+        <main>
+            <div id="content">
+                <article class="card" id="education">
+                    <section>
+                        <h2>Education</h2>
+                        <h3>Universitas Sriwijaya</h3>
+                        <h4>Teknik Informatika</h4>
+                        <p>2016 - 2021</p>
+                    </section>
+                    <section>
+                        <h3>SMK PGRI Tanjung Raja</h3>
+                        <h4>Teknik Kendaraan Ringan</h4>
+                        <p>2012 - 2015</p>
+                    </section>
+                </article>
+                <article class="card" id="experience">
+                    <h2>Experience</h2>
+                    <section >
+                        <h3>Internship</h3>
+                        <h4>PT Pusri Palembang</h4>
+                        <p>2019 - Bag. Teknologi Informasi</p>
+                    </section>
+                    <section>
+                        <h3>Freelance</h3>
+                        <h4>Tryout Online Kedinasan</h4>
+                        <p>2019 - Administrator</p>
+                    </section>
+                </article>
+                <article class="card" id="skills">
+                    <h2>Skills</h2>
+                    <section class="skill-item">
+                        <h3>HTML</h3>
+                        <p class="item-contents">Hypertext Markup Language</p>
+                        <div class="clear"></div>
+                    </section>
+                    <section class="skill-item">
+                        <h3>CSS</h3>
+                        <p class="item-contents">Cascading Style Sheet</p>
+                        <div class="clear"></div>
+                    </section>
+                    <section class="skill-item">
+                        <h3>PHP</h3>
+                        <p class="item-contents">PHP: Hypertext Prepocessor</p>
+                        <div class="clear"></div>
+                    </section>
+                    <section class="skill-item"> 
+                        <h3>MySQL</h3>
+                        <p class="item-contents">MySQL Database</p>
+                        <div class="clear"></div>
+                    </section>
+                </article>
+            </div>
+
+            <aside>
+                <article class="profile card" >
+                     <header>
+                         <h2>My Profile</h2>
+                         <figure>
+                            <img src="assets/img/foto.jpeg" alt="Foto">
+                            <figcaption></figcaption>
+                          </figure>
+                     </header>
+                     <section>
+                        <table>
+                            <tr>
+                                <td>Nama</td>
+                                <td>Septri Putra Wiarka</td>    
+                            </tr>
+                            <tr>
+                               <td>Alamat</td>
+                               <td>LK.III Tanjung Raja, Ogan Ilir Palembang</td>
+                            </tr>
+                        </table>
+                     </section>
+                </article>
+                <article class="card" id="contact" style="text-align: center;">
+                    <a href="mailto:septriputraw@gmail.com">
+                        <span class="btn contact">Contact Me</span>
+                    </a>
+                </article>
+            </aside>
+        </main>
+  
+    <script src="/assets/script.js"></script>
+    
+    </body>
+
+    <footer><p>tritraka&trade;</p> &copy; 
+        <script>
+            document.write(new Date().getFullYear());
+        </script>
+          <em>IF'16</em></footer>
+</html>

@@ -1,0 +1,153 @@
+@media screen and (max-width: 670px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2, h3, h4 {
+        font-weight: normal;
+    }
+
+
+    p {
+        font-size: 14px;
+    }
+
+    em {
+        font-size: xx-small;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    span {
+        display: none;
+    }
+
+    ul.topnav li:not(:first-child) {
+        display: none;
+    }
+
+    ul.topnav li.menu {
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    ul.topnav.resposive li.menu {
+        position: absolute;
+        top: 0;
+    }
+
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+    .dropdown {
+        display: none;
+    }
+    
+    #content,aside {
+        width: 100%;
+        padding: 0;
+    }
+
+    .skill-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .profile img {
+        width: fit-content;
+    }
+
+    /*table {
+        width: 100%;
+    }*/
+
+    .card {
+        overflow-x: auto;
+    }
+
+    td {
+        width: auto;
+        font-size: x-small;
+    }
+
+    footer {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    footer p {
+        float: none;
+    }
+
+    footer em{
+        float: none;
+    }
+
+    
+ }
+
+ @media screen and (max-width: 1000px){
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+     
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .skill-item {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+     ul li.skill-item {
+        list-style-type: none;
+        display: flex;
+        float: left;
+        width: 25%;
+        padding: 10px;
+    }
+
+    table {
+        margin: 0 auto;
+        width: max-content;
+    }
+
+ }
+
+ @media screen and (min-width: 1001px) {
+
+    a[href="#contact"] {
+        display: none;
+    }
+
+
+     .card  {
+         overflow-x: auto;
+     }
+
+     .profile img {
+         width: fit-content;
+     }
+ }

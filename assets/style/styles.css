@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dark-body {
+    background: gray;
+    color: whitesmoke;
+}
+
+header{
+    display: inline;
+}
+
+.jumbotron{
+    font-size: 20px;
+    padding: 40px;
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: rgba(17, 235, 235, 0.9);
+    padding: 5px;
+}
+
+.menu {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+ }
+
+ nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+ }
+
+ nav li a:active {
+     background-color: darkgray;
+ }
+
+ .mode {
+     float: right;
+     clear: left;
+ }
+
+ main{
+     float: none;
+    padding: 20px;
+    overflow: auto;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(5, 197, 197);
+}
+
+#content {
+    float: left;
+    width: 75%;
+ }
+
+ #skills {
+     float: none;
+     overflow: auto;
+ }
+
+ .skill-item {
+     float: left;
+     width: 25%;
+ }
+
+ .item-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+
+.clear {
+    clear: left;
+}
+
+ aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+ 
+ .profile header{
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+ }
+
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ .card:hover {
+     background-color: silver;
+ }
+
+ .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .contact {
+    padding: 15px 40px;
+    background-color: rgb(17, 235, 235);
+    cursor: pointer;
+    box-shadow: 0 7px rgb(4, 187, 187);
+  }
+  
+  .contact:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+td {
+   text-align: center;
+   padding: 16px;
+   background-color: cyan;
+   color: black;
+}
+
+footer {
+    padding: 20px;
+    color: black;
+    background-color: rgb(0, 255, 255);
+    text-align: center;
+    font-weight: bold;
+}
+
+footer p {
+    float: left ;
+    margin: 0 auto;
+}
+
+footer em {
+    float: right;
+    margin: 0 auto;
+}
+
+footer p:hover {
+    color: silver;
+}
